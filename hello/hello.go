@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/BilalShahHome/learningGo/stringutil"
 )
 
 func main() {
-	fmt.Printf("hello world !\n")
+	fmt.Printf(stringutil.Reverse("\n hello world !\n"))
 }
