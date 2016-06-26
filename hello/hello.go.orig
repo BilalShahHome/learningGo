@@ -1,0 +1,18 @@
+# Bilal adding comments just to make it sweat
+<<<<<<< HEAD
+# Bilal - now just to see effects of branching --- 1 - testing - change 2 
+=======
+# Bilal - now just to see effects of branching --- 1 testing2 change2
+# branch games - testing3 change2
+>>>>>>> testing2
+package main
+
+import (
+	"fmt"
+
+	"github.com/BilalShahHome/stringutil"
+)
+
+func main() {
+	fmt.Printf(stringutil.Reverse("!oG ,olleH"))
+}
